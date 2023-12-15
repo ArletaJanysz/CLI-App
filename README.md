@@ -17,13 +17,13 @@ This is CLI console application. The application uses the commander module to pa
 - node index.js --action list
   ![CLI-App - actionList](screenshots/actionList.jpg)
 - node index.js --action get --id 'enter the id you are looking for'
-  ![CLI-App - action-get--id](action-get--id.jpg)
+  ![CLI-App - action-get--id](screenshots/action-get--id.jpg)
 - node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
-  ![CLI-App - action-add](action-add.jpg)
-  ![CLI-App - actionList-after--add](actionList-after--add.jpg)
+  ![CLI-App - action-add](screenshots/action-add.jpg)
+  ![CLI-App - actionList-after--add](screenshots/actionList-after--add.jpg)
 - node index.js --action remove --id enter the id to be deleted
-  ![CLI-App - action-remove](action-remove.jpg)
-  ![CLI-App - actionList-after--remove](actionList-after--remove.jpg)
+  ![CLI-App - action-remove](screenshots/action-remove.jpg)
+  ![CLI-App - actionList-after--remove](screenshots/actionList-after--remove.jpg)
 
 ## Project Structure
 
