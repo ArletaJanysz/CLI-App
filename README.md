@@ -20,10 +20,8 @@ This is CLI console application. The application uses the commander module to pa
   ![CLI-App - action-get--id](screenshots/action-get--id.jpg)
 - node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
   ![CLI-App - action-add](screenshots/action-add.jpg)
-  ![CLI-App - actionList-after--add](screenshots/actionList-after--add.jpg)
 - node index.js --action remove --id enter the id to be deleted
   ![CLI-App - action-remove](screenshots/action-remove.jpg)
-  ![CLI-App - actionList-after--remove](screenshots/actionList-after--remove.jpg)
 
 ## Project Structure
 
