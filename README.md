@@ -27,7 +27,7 @@ This is CLI console application. The application uses the commander module to pa
 
 ---
 
-![Project structure](projectStructure.jpg)
+![Project structure](screenshots/projectStructure.jpg)
 
 ## Author
 
