@@ -15,7 +15,7 @@ This is CLI console application. The application uses the commander module to pa
 ### Basic comedy in the terminal
 
 - node index.js --action list
-  ![CLI-App - actionList](actionList.jpg)
+  ![CLI-App - actionList](screenshots/actionList.jpg)
 - node index.js --action get --id 'enter the id you are looking for'
   ![CLI-App - action-get--id](action-get--id.jpg)
 - node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
