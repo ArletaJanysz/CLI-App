@@ -1,23 +1,40 @@
-const yargs = require("yargs");
+const { Command } = require("commander");
+const program = new Command();
 
-const argv = yargs.argv;
+program
+	.option("-a, --action <type>", "choose action")
+	.option("-i, --id <type>", "user id")
+	.option("-n, --name <type>", "user name")
+	.option("-e, --email <type>", "user email")
+	.option("-p, --phone <type>", "user phone");
+
+program.parse(process.argv);
+
+const args = program.opts();
 
 function invokeAction({ action, id, name, email, phone }) {
+	const {
+		listContacts,
+		getContactById,
+		removeContact,
+		addContact,
+	} = require("./contacts");
+
 	switch (action) {
 		case "list":
-			// implementacja
+			listContacts();
 			break;
 
 		case "get":
-			// implementacja
+			getContactById(id);
 			break;
 
 		case "add":
-			// implementacja
+			addContact(name, email, phone);
 			break;
 
 		case "remove":
-			// implementacja
+			removeContact(id);
 			break;
 
 		default:
@@ -25,4 +42,4 @@ function invokeAction({ action, id, name, email, phone }) {
 	}
 }
 
-invokeAction(argv);
+invokeAction(args);
